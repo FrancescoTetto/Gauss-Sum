@@ -1,0 +1,16 @@
+#include <iostream>
+
+int main() {
+    
+    int number;
+    
+    std::cout << "Read the number: ";
+    
+    std::cin >> number; // Here we will read the number
+    
+    std::cout << "The Gauss Sum is: " << (number * (number + 1)) / 2 << "\n";
+    
+    return 0;
+    
+    
+}
